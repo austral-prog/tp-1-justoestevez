@@ -16,10 +16,10 @@ def math():
     suma = a + b
     diferencia = a - b
     producto = a * b
-    promedio = (a + b) / 2
-    cociente_entero = a / b
+    promedio = suma / 2
+    cociente_entero = a // b
     resto = a % b
-    division_real = a // b
+    division_real = a / b
     print (suma)
     print (diferencia)
     print (producto)
